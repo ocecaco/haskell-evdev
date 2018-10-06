@@ -26,7 +26,7 @@ dependencies:
 
 library:
   source-dirs: src
-  default-extensions: ForeignFunctionInterface
+  default-extensions: ForeignFunctionInterface  # TODO: maybe put at top of files instead
   pkg-config-dependencies: libevdev
 
 executables:

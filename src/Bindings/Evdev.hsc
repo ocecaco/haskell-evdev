@@ -110,7 +110,6 @@ import Foreign.Ptr
 #num LIBEVDEV_LED_OFF
 
 #ccall libevdev_kernel_set_led_value , Ptr <struct libevdev> -> CUInt -> <enum libevdev_led_value> -> IO CInt
-#ccall libevdev_kernel_set_led_values , Ptr <struct libevdev> -> IO CInt
 #ccall libevdev_set_clock_id , Ptr <struct libevdev> -> CInt -> IO CInt
 #ccall libevdev_event_is_type , Ptr <struct input_event> -> CUInt -> IO CInt
 #ccall libevdev_event_is_code , Ptr <struct input_event> -> CUInt -> CUInt -> IO CInt
